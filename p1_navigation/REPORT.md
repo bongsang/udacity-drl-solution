@@ -47,17 +47,16 @@ At every Tau step, the parameters are copied from our DQN network to update the 
 - eps_decay=0.993
 
 ## Training logs
-
-'--- episode = 50, average score =  0.36
-'--- episode = 100, average score =  1.18
---- episode = 150, average score =  3.34
---- episode = 200, average score =  5.26
---- episode = 250, average score =  6.69
---- episode = 300, average score =  8.13
---- episode = 350, average score =  9.42
---- episode = 400, average score =  11.02
---- episode = 450, average score =  12.35
-+++ Navigation banana project is solved successfully. Episodes = 481, Average =  13.07
+- episode = 50, average score =  0.36
+- episode = 100, average score =  1.18
+- episode = 150, average score =  3.34
+- episode = 200, average score =  5.26
+- episode = 250, average score =  6.69
+- episode = 300, average score =  8.13
+- episode = 350, average score =  9.42
+- episode = 400, average score =  11.02
+- episode = 450, average score =  12.35
+- Navigation banana project is solved successfully. Episodes = 481, Average =  13.07
 
 
 ## Scores Graph
