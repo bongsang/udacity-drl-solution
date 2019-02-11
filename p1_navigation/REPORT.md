@@ -1,7 +1,7 @@
 [image1]: https://cdn-images-1.medium.com/max/2000/1*Zplt-1wTWu_7BGmZCBFjbQ.png
 [image2]: https://cdn-images-1.medium.com/max/2000/1*D9i0I2EO7LKL2aAb2HLfTg.png
-[image3]: result/navigation_solution_bongsang.gif
-[image4]: result/scores_graph.png
+[image3]: result/scores_graph.png
+[image4]: result/navigation_solution_bongsang.gif
 
 
 # [Description] Deep Q-Network's architecture and its hyperparameters
@@ -47,8 +47,9 @@ At every Tau step, the parameters are copied from our DQN network to update the 
 - eps_decay=0.993
 
 ## Training logs
---- episode = 50, average score =  0.36
---- episode = 100, average score =  1.18
+
+'--- episode = 50, average score =  0.36
+'--- episode = 100, average score =  1.18
 --- episode = 150, average score =  3.34
 --- episode = 200, average score =  5.26
 --- episode = 250, average score =  6.69
@@ -58,15 +59,15 @@ At every Tau step, the parameters are copied from our DQN network to update the 
 --- episode = 450, average score =  12.35
 +++ Navigation banana project is solved successfully. Episodes = 481, Average =  13.07
 
-## Realtime training visualization
-![][image3]
-
 
 ## Scores Graph
+![][image3]
+
+## Realtime training visualization
 ![][image4]
 
 
 #### You can see full source code and run by yourself. The source is located in this folder.
-#### Source code: p1_navigation/Navigation_Solution_Bongsang.ipynb
+#### Source code: Navigation_Solution_Bongsang.ipynb
 
 ### Thank you
