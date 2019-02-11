@@ -65,8 +65,17 @@ At every Tau step, the parameters are copied from our DQN network to update the 
 ## Realtime training visualization
 ![][image4]
 
+# [Next] Next Study Plan
+- Playing Atari with Deep Reinforcement Learning, Mnih et al, 2013. Algorithm: DQN.
+- Deep Recurrent Q-Learning for Partially Observable MDPs, Hausknecht and Stone, 2015. Algorithm: Deep Recurrent Q-Learning.
+- Dueling Network Architectures for Deep Reinforcement Learning, Wang et al, 2015. Algorithm: Dueling DQN.
+- Deep Reinforcement Learning with Double Q-learning, Hasselt et al 2015. Algorithm: Double DQN.
+- Prioritized Experience Replay, Schaul et al, 2015. Algorithm: Prioritized Experience Replay (PER).
+- Rainbow: Combining Improvements in Deep Reinforcement Learning, Hessel et al, 2017. Algorithm: Rainbow DQN.
+
 
 #### You can see full source code and run by yourself. The source is located in this folder.
 #### Source code: Navigation_Solution_Bongsang.ipynb
 
 ### Thank you
+# Bongsang
