@@ -1,6 +1,6 @@
 # Deep Q-Network's architecture and its hyperparameters
 
-## 1. DQN overcomes unstable learning by mainly 2 techniques below:
+## [Description] DQN overcomes unstable learning by mainly 2 techniques below:
 - Experience Replay
 - Target Network
 
@@ -10,7 +10,12 @@ Experience Replay is originally proposed in Reinforcement Learning for Robots Us
 - increases learning speed with mini-batches
 - reuses past transitions to avoid catastrophic forgetting
 
+### Target Network
+In TD error calculation, target function is changed frequently with DNN. Unstable target function makes training difficult. So Target Network technique fixes parameters of target function and replaces them with the latest network every thousands steps.
 
+[image1]: https://cdn-images-1.medium.com/max/1750/1*Gqg5g7PxlpHv35MchecWiA.png
+![][image1]
+- target Q function in the red rectangular is fixed
 
 ### Solution and Result by Bongsang
 
