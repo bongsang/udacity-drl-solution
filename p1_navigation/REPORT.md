@@ -1,8 +1,8 @@
 [image1]: https://cdn-images-1.medium.com/max/2000/1*Zplt-1wTWu_7BGmZCBFjbQ.png
 [image2]: https://cdn-images-1.medium.com/max/2000/1*D9i0I2EO7LKL2aAb2HLfTg.png 
-# Deep Q-Network's architecture and its hyperparameters
+# [Description] Deep Q-Network's architecture and its hyperparameters
 
-## [Description] DQN overcomes unstable learning by mainly 2 techniques below:
+## DQN overcomes unstable learning by mainly 2 techniques:
 - Experience Replay
 - Target Network
 
@@ -22,7 +22,25 @@ At every Tau step, the parameters are copied from our DQN network to update the 
 ![][image2]
 
 
-### Solution and Result by Bongsang
+### DQN Hyperparameters
+- Number of Episodes
+  Total episodes in Training
+
+- Number of Steps
+  Total time steps in each episode
+
+- Start value of Epsilon
+  Starting epsilon greedy, 1.0 means full random search
+
+- Start value of Epsilon
+  Minimum epsilon greedy
+
+- Epsilon Decay
+  Decaying rate for episodes
+  
+
+### Training Result
+
 
 You can use DQN to solve the problem.
 After around 450 episodes DQN can be smart enough to avoid blue banana and to get yellow banana.
