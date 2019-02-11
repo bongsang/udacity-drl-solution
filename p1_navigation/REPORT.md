@@ -13,9 +13,17 @@ Experience Replay is originally proposed in Reinforcement Learning for Robots Us
 ### Target Network
 In TD error calculation, target function is changed frequently with DNN. Unstable target function makes training difficult. So Target Network technique fixes parameters of target function and replaces them with the latest network every thousands steps.
 
-[image1]: https://cdn-images-1.medium.com/max/1750/1*Gqg5g7PxlpHv35MchecWiA.png
+[image1]: https://cdn-images-1.medium.com/max/2000/1*Zplt-1wTWu_7BGmZCBFjbQ.png
 ![][image1]
-- target Q function in the red rectangular is fixed
+
+Using the Bellman equation,the TD target is just the reward of taking that action at that state plus the discounted highest Q value for the next state.
+[image2]: https://cdn-images-1.medium.com/max/1600/1*KsQ46R8zyTQlKGv91xi6ww.png
+![][image2]
+
+At every Tau step, the parameters are copied from our DQN network to update the target network.
+[image3]: https://cdn-images-1.medium.com/max/2000/1*D9i0I2EO7LKL2aAb2HLfTg.png 
+![][image3]
+
 
 ### Solution and Result by Bongsang
 
