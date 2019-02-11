@@ -1,5 +1,9 @@
 [image1]: https://cdn-images-1.medium.com/max/2000/1*Zplt-1wTWu_7BGmZCBFjbQ.png
-[image2]: https://cdn-images-1.medium.com/max/2000/1*D9i0I2EO7LKL2aAb2HLfTg.png 
+[image2]: https://cdn-images-1.medium.com/max/2000/1*D9i0I2EO7LKL2aAb2HLfTg.png
+[image3]: result/navigation_solution_bongsang.gif
+[image4]: result/scores_graph.png
+
+
 # [Description] Deep Q-Network's architecture and its hyperparameters
 
 ## DQN description: DQN overcomes unstable learning by mainly 2 techniques.
@@ -42,20 +46,25 @@ At every Tau step, the parameters are copied from our DQN network to update the 
 - eps_end=0.1
 - eps_decay=0.993
 
+## Training logs
+--- episode = 50, average score =  0.36
+--- episode = 100, average score =  1.18
+--- episode = 150, average score =  3.34
+--- episode = 200, average score =  5.26
+--- episode = 250, average score =  6.69
+--- episode = 300, average score =  8.13
+--- episode = 350, average score =  9.42
+--- episode = 400, average score =  11.02
+--- episode = 450, average score =  12.35
++++ Navigation banana project is solved successfully. Episodes = 481, Average =  13.07
+
+## Realtime training visualization
+![][image3]
 
 
-You can use DQN to solve the problem.
-After around 450 episodes DQN can be smart enough to avoid blue banana and to get yellow banana.
-Below is a capture GIF traing algorithm:
+## Scores Graph
+![][image4]
 
-#### Training
-[train_image]: result/navigation_solution_bongsang.gif
-![][train_image]
-
-
-#### Scores Graph
-[scores_graph]: result/scores_graph.png
-![][scores_graph]
 
 #### You can see full source code and run by yourself. The source is located in this folder.
 #### Source code: p1_navigation/Navigation_Solution_Bongsang.ipynb
