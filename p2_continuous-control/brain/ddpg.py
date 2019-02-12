@@ -2,7 +2,8 @@ import numpy as np
 import copy
 from collections import namedtuple, deque
 import random
-from model import Actor, Critic
+from .model import Actor
+from .model import Critic
 
 import torch
 import torch.nn.functional as F
@@ -20,7 +21,7 @@ LEAKINESS = 0.01
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 
-class Agent():
+class DDPG():
     def __init__(self, state_size, action_size, n_agents=1, seed=0):
         """Initialize an Agent object.
 
