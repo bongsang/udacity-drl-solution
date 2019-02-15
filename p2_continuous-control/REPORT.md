@@ -49,7 +49,7 @@ To make DDPG policies explore better, we add noise to their actions at training 
 
 ## Realtime training visualization result
 ![][image2]
-![image2][https://youtu.be/yhdOoZNa1K8]
+![](image2)(https://youtu.be/yhdOoZNa1K8)
 
 # [Next] Next Study Plan
 - ![Silver, et al. Deterministic Policy Gradients][http://jmlr.org/proceedings/papers/v32/silver14.pdf]
