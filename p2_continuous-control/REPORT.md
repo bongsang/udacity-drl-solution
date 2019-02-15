@@ -1,5 +1,5 @@
 [image1]: result.png
-[image2]: result.mp4
+[image2]: https://youtu.be/yhdOoZNa1K8
 
 
 # [Description] DDPG's architecture and its hyperparameters
