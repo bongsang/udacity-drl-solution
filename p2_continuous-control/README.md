@@ -41,7 +41,10 @@ The task is episodic, and in order to solve the environment,  agent must get an 
 
 ### Instructions
 
-Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
+1. Follow the instructions in `Continuous_Control_final.ipynb` to get started with training your own agent.  
+2. Follow the instructions in `Visualization.ipynb` to see trained agent's performance visually.
+3. Or, you can the result visually 'at result.mp4'.
 
 
+Enjoy!
 
