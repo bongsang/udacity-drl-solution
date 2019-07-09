@@ -29,6 +29,11 @@
               <item name="udacity-drl-solution" type="b2602c69:ProjectViewProjectNode" />
               <item name="udacity-drl-solution" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="udacity-drl-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udacity-drl-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="p3_collab-compet" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -37,6 +42,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -69,12 +75,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562635036963</updated>
-      <workItem from="1562635038425" duration="1828000" />
+      <workItem from="1562635038425" duration="2160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1828000" />
+    <option name="totallyTimeSpent" value="2160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -86,7 +92,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.36876357" />
+      <window_info anchor="bottom" id="Terminal" weight="0.36876357" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
