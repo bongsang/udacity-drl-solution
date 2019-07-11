@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1b605d0-fbe7-4d1d-82fd-94c000debbcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/udacity-drl-solution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/udacity-drl-solution.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p3_collab-compet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/p3_collab-compet/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p3_collab-compet/scores.png" beforeDir="false" />
-    </list>
+    <list default="true" id="e1b605d0-fbe7-4d1d-82fd-94c000debbcf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +13,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/p3_collab-compet/Tennis_Solved.ipynb">
           <provider selected="true" editor-type-id="jupyter-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1289" />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -127,16 +128,15 @@
       <workItem from="1562635038425" duration="2780000" />
       <workItem from="1562648393200" duration="17000" />
       <workItem from="1562858763285" duration="152000" />
-      <workItem from="1562858932423" duration="883000" />
+      <workItem from="1562858932423" duration="1365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3832000" />
+    <option name="totallyTimeSpent" value="4314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -186,6 +186,11 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/p3_collab-compet/Tennis_Solved.ipynb">
