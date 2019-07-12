@@ -1,4 +1,6 @@
 [image1]: result.png
+[image2]: https://openai.com/content/images/2017/06/chase_gif_final.gif
+
 
 # [Description] DDPG's architecture and its hyperparameters
 Deep Deterministic Policy Gradient (DDPG) is an algorithm which concurrently learns a Q-function and a policy. 
@@ -17,6 +19,24 @@ To make DDPG policies explore better, we add noise to their actions at training 
 - Ornstein-Uhlenbeck noise parameter
 
 # [SOLUTION] Bongsang's solution
+## Neural Networks
+- I think two hidden layers are enough because states is small.
+
+- The number of nodes
+> Especially in actor's 1st layer, I used 256(128*2) nodes to consider both states of players.
+```python
+self.fc1 = nn.Linear(state_size*2, fc1_units)
+self.fc2 = nn.Linear(fc1_units, fc2_units)
+self.fc3 = nn.Linear(fc2_units, action_size)
+```
+> In critic's 2nd layer, I added double action sizes for both actions of two players.
+> Others are same with the single DDPG in continuous control I made.
+```python
+        self.fcs1 = nn.Linear(state_size*2, fcs1_units)
+        self.fc2 = nn.Linear(fcs1_units+(action_size*2), fc2_units)
+        self.fc3 = nn.Linear(fc2_units, 1)
+```
+
 ## Hyperparameter tuned results
 - GAMMA = 0.99            # discount factor
 - TAU = 7e-2              # for soft update of target parameters
@@ -107,6 +127,13 @@ To make DDPG policies explore better, we add noise to their actions at training 
 ![][image1]
 
 # [Next] Next Study Plan
+I applied single DDPG to multi DDPG so states and actions simply were concatenated.
+I think more efficient architecture for multi agents. I will study more Open AI's MaDDOG.
+
+![][image2]
+
+
+
 - ![Deep Deterministic Policy Gradients in TensorFlow][https://pemami4911.github.io/blog/2016/08/21/ddpg-rl.html]
 - ![Silver, et al. Deterministic Policy Gradients][http://jmlr.org/proceedings/papers/v32/silver14.pdf]
 - ![Lillicrap, et al. Continuous control with Deep Reinforcement Learning][http://arxiv.org/pdf/1509.02971v2.pdf]
